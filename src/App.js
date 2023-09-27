@@ -1,13 +1,10 @@
-import Feedback from "./components/Conditionalrendering/Feedback";
-import Loading from "./components/Conditionalrendering/Loading";
-import Notification from "./components/Conditionalrendering/Notification";
-import Message from "./components/Conditionalrendering/Notification";
+import StrictMode from "./components/Purecomponents/StrictMode";
 
 function App() {
   return (
-    <div>
-    <Feedback isfeedback="negative" feedback="RCB in danger"/>
-    </div>
+      <div>
+        <StrictMode/>
+      </div>
   );
 }
 
